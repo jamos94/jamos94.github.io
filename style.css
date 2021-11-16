@@ -1,10 +1,10 @@
 /*centering text into frame of screen
   this code is not allowing me to center the text underneath the 
   banner image*/
-/* body {
-    margin: 0 auto;
+body {
+    /* margin: 0 auto; */
     max-width: 50em;
-  } */
+  }
 
 
 /*change font family for asthetics*/
