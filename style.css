@@ -12,13 +12,10 @@ body {
     line-height: 1.5;
     padding: 4em 1em;
   }
-  .header {
-    padding: 60px;
-    text-align: center;
-    background: #1abc9c;
-    background-image: url(Banner.png);
-    color: white;
-    font-size: 30px;
+  header {
+    background-image: url("Banner.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
   }
   h2 {
     margin-top: 1em;
