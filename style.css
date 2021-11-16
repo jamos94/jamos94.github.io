@@ -16,8 +16,8 @@ body {
     background-image: url("Banner.png");
     background-repeat: no-repeat, repeat;
     /*trying to set banner in the center of the page*/
-    margin: 0 auto;
-    max-width: 0 auto;
+    margin: 0 ;
+    max-width: 0 ;
   }
   h2 {
     margin-top: 1em;
