@@ -1,19 +1,14 @@
 /*centering text into frame of screen*/
-body {
+/* body {
     margin: 0 auto;
     max-width: 50em;
-  }
+  } */
 /*change font family for asthetics*/
   body {
     font-family: "Helvetica", "Arial", sans-serif;
   }
-/*adjust spacing increase appeal*/
-  /* body {
-    line-height: 1.5;
-    padding: 4em 1em;
-  } */
+
   header {
-    background-image: url("Banner.png");
     background-repeat: no-repeat, repeat;
     /*trying to set banner in the center of the page*/
     margin: 0 ;
