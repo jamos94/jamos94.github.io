@@ -1,8 +1,8 @@
 /*centering text into frame of screen*/
-/* body {
+body {
     margin: 0 auto;
     max-width: 50em;
-  } */
+  }
 /*change font family for asthetics*/
   body {
     font-family: "Helvetica", "Arial", sans-serif;
