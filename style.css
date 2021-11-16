@@ -6,6 +6,13 @@
     max-width: 50em;
   } */
 
+/*remove white space*/
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
 /*change font family for asthetics*/
   body {
     font-family: "Helvetica", "Arial", sans-serif;
