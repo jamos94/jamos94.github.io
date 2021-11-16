@@ -1,12 +1,3 @@
-/*centering text into frame of screen
-  this code is not allowing me to center the text underneath the 
-  banner image*/
-/* body {
-    margin: 0 auto;
-    max-width: 50em;
-  } */
-
-
 
 /*change font family for asthetics*/
   body {
@@ -29,40 +20,23 @@
     padding-top: 1em;
   }
 
-  /* adjusting color and contrast makes the page more comfortable to look at
-/*adjust text to an off white*/
-  /* body {
-    
-    background-color: rgba(26, 24, 24, 0.466);   
-  }  */
-
 h1,
 h2,
 strong {
   color: #6036c2;
 }
-/* adjust background to black and balance the page
-code,
-pre {
-  background: rgba(14, 12, 12, 0.63);
-} */
+
 
 code {
   padding: 2px 4px;
   vertical-align: text-bottom;
 }
 
-/* pre {
-  padding: 1em;
-} */
-
 /*an accent color is used to emphasize particular aspects*/
 a {
     color: #6036c2;
   }
-  /* body {
-    color: #566b78;
-  } */
+  
   /*other accent colors are added for shading, borders, and background*/
   code,
   pre {
@@ -72,7 +46,3 @@ a {
     color: #3f75aab0;
     border-left: 2px solid #6036c2;
   } 
-/*   
-  pre {
-    border-left: 2px solid #6036c2;
-  } */
