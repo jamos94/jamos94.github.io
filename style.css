@@ -48,3 +48,17 @@ pre {
 a {
     color: #6036c2;
   }
+  body {
+    color: #566b78;
+  }
+  /*other accent colors are added for shading, borders, and background*/
+  code,
+  pre {
+    background: #3f75aab0;
+    border-bottom: 1px solid #000000;
+    color: #3f75aab0;
+  }
+  
+  pre {
+    border-left: 2px solid #000000;
+  }
