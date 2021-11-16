@@ -42,14 +42,14 @@ pre {
   background: rgba(14, 12, 12, 0.63);
 }
 
-code {
+/* code {
   padding: 2px 4px;
   vertical-align: text-bottom;
-}
-
-/* pre {
-  padding: 1em;
 } */
+
+pre {
+  padding: 1em;
+}
 
 /*an accent color is used to emphasize particular aspects*/
 a {
