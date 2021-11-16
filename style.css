@@ -1,64 +1,48 @@
-/*centering text into frame of screen*/
-body {
-    margin: 0 auto;
-    max-width: 50em;
-  }
+
 /*change font family for asthetics*/
   body {
     font-family: "Helvetica", "Arial", sans-serif;
+    background-color: rgba(26, 24, 24, 0.466); 
+    max-width: 50em;
+    margin: 0;
+    text-align: center;
+    overflow-x:hidden;
   }
-/*adjust spacing increase appeal*/
-  body {
-    line-height: 1.5;
-    padding: 4em 1em;
+
+  header {
+    background-repeat: no-repeat, repeat;
+    /*trying to set banner in the center of the page*/
+    margin: 0;
+    max-width: 0 ;
   }
-  
   h2 {
     margin-top: 1em;
     padding-top: 1em;
   }
 
-  /*adjusting color and contrast makes the page more comfortable to look at*/
-/*adjust text to an off white*/
-  body {
-    color: rgb(168, 165, 165);
-  }
-
 h1,
 h2,
 strong {
-  color: rgb(146, 143, 143);
+  color: #6036c2;
 }
-/*adjust background to black and balance the page*/
-code,
-pre {
-  background: rgba(14, 12, 12, 0.63);
-}
+
 
 code {
   padding: 2px 4px;
   vertical-align: text-bottom;
 }
 
-pre {
-  padding: 1em;
-}
-
 /*an accent color is used to emphasize particular aspects*/
 a {
     color: #6036c2;
   }
-  body {
-    color: #566b78;
-  }
+  
   /*other accent colors are added for shading, borders, and background*/
   code,
   pre {
-    background: #3f75aab0;
+    padding: 1em;
+    background: #000408d7;
     border-bottom: 1px solid #000000;
     color: #3f75aab0;
-  }
-  
-  pre {
-    border-left: 2px solid #000000;
-  }
+    border-left: 2px solid #6036c2;
+  } 
