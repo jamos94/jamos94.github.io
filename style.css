@@ -15,8 +15,8 @@ body {
 
 .content {            /*center content included in the content div*/
   max-width: 500px;
-  margin: 25px 50px 75px 100px;
-  padding: 25px 50px 75px 100px;   /*top 25, right/left 50, bottom 75*/
+  margin: 25px 50px 75px 50px;
+  padding: 25px 50px 75px 50px;   /*top 25, right/left 50, bottom 75*/
 }
 
 img {
