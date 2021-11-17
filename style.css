@@ -1,12 +1,23 @@
 
 /*change font family for asthetics*/
-  body {
-    font-family: "Helvetica", "Arial", sans-serif;
-    background-color: rgba(26, 24, 24, 0.466); 
-    max-width: 50em;
-    margin: 0;
-    text-align: center;
-    overflow-x:hidden;
-  }
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: rgba(26, 24, 24, 0.466); 
+  max-width: 50em;
+  margin: 0;
+  text-align: center;
+  overflow-x:hidden;
+}
 
+.normal-text {    /* <p class="normal-text>This Text is going to be 18px*/
+  font-size: 18px;
+}
 
+.content {            /*center content included in the content div*/
+  max-width: 500px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
