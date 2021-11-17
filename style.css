@@ -15,7 +15,7 @@ body {
   max-width: 100%;
   min-height: 60vh; 
 /*  ^^ set this to the desire height in whatever unit px, etc. */
-  background-image: url(banner.jpg); 
+  background-image: url(images/Banner.png); 
 /* ^^ check the path to the image, depends how you are serving your site*/
   background-size: cover;
   background-repeat: no-repeat;
