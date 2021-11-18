@@ -5,6 +5,6 @@ myImage.onclick = function() {
     if(mySrc === 'images/image1') {
       myImage.setAttribute('src','images/successinsteps');
     } else {
-      myImage.setAttribute('src','images/image3');
+      myImage.setAttribute('src','images/showup');
     }
 }
