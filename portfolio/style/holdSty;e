@@ -55,3 +55,41 @@ a {
           <p>In HTML/CSS...</p>
           <p>In C++...</p>
           <p>In Python</p> -->
+
+
+          change font family for asthetics
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: rgba(26, 24, 24, 0.466); 
+  max-width: 50em;
+  margin: 0;
+  text-align: center;
+  overflow-x:hidden;
+}
+.banner {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 60vh; 
+/*  ^^ set this to the desire height in whatever unit px, etc. */
+  background-image: url();
+/* ^^ check the path to the image, depends how you are serving your site*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.normal-text {    /* <p class="normal-text>This Text is going to be 18px*/
+  font-size: 18px;
+}
+
+.content {            /*center content included in the content div*/
+  max-width: 500px;
+  margin: 25px 50px 75px 100px;
+  padding: 25px 50px 75px 140px;   /*top 25, right/left 50, bottom 75*/
+}
+
+img {
+  max-width: 100%;
+}
