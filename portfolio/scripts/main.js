@@ -9,3 +9,6 @@ myImage.onclick = function() {
     }
 }
 
+// to do:
+    // image won't load in above function
+    //first image shows but second disapears on click instead of changing to the next image
