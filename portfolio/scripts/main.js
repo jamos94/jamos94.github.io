@@ -5,6 +5,6 @@ myImage.onclick = function() {
     if(mySrc === 'images/progressneverlinear') {
       myImage.setAttribute('src','images/successinsteps');
     } else {
-      myImage.setAttribute('src','images/showup');
+      myImage.setAttribute('src','images/progressneverlinear');
     }
 }
