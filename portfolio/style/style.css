@@ -40,12 +40,12 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  width: 400px;
+  width: 200px;
 }
 
 #header {
   /* hint: use ../images/Banner.jpg */
-  width: 100%;
+  width: 600px;
   height: 400px;
   background-image: url('../images/Banner.jpg'); 
   background-size: cover;
