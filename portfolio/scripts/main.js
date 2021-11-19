@@ -1,5 +1,5 @@
 // image changes upon click
-let myImage = document.querySelector('img');
+let myImage = document.querySelector('images/progressneverlinear.png');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
