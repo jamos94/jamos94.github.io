@@ -10,24 +10,29 @@ myImage.onclick = function() {
     }
 }
 
-// creates a welcome message
-let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+// // creates a welcome message
+// let myButton = document.querySelector('button');
+// let myHeading = document.querySelector('h1');
 
-//gets a user name, stores it, and updates heading
-function setUserName() {
-  let myName = prompt('Please enter your name.');
-  localStorage.setItem('name', myName);
-  myHeading.textContent = 'Mozilla is cool, ' + myName;
-}
+// //gets a user name, stores it, and updates heading
+// function setUserName() {
+//   let myName = prompt('Please enter your name.');
+//   if(!myName) {
+//     setUserName();
+//   } else {
+//     localStorage.setItem('name', myName);
+//     myHeading.textContent = 'Welcome to my portfolio, ' + myName;
+//   }
+// }
 
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
-}
-//allows the user to enter a new username
-myButton.onclick = function() {
-  setUserName();
-}
+
+// if(!localStorage.getItem('name')) {
+//   setUserName();
+// } else {
+//   let storedName = localStorage.getItem('name');
+//   myHeading.textContent = 'Welcome to my portfolio,' + storedName;
+// }
+// //allows the user to enter a new username
+// myButton.onclick = function() {
+//   setUserName();
+// }
