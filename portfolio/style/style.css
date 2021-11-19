@@ -42,15 +42,19 @@ img {
   margin: 0 auto;
   width: 200px;
 }
-
+/* 
 #header {
-  /* hint: use ../images/Banner.jpg */
-  /* width: 600px;
-  height: 400px; */
+  width: 600px;
+  height: 400px; 
   background-image: url('../images/Banner.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
-  }
+  } */
+
   .center {
     margin: 0 auto;
+  }
+
+  figcaption {
+    text-align: center;
   }
