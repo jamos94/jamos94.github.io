@@ -42,8 +42,9 @@ img {
   width: 400px;
 }
 
-#header {
+.header {
   background: url(/images/banner.jpg) no-repeat;
   width: 980px;
   height: 100px;
+  background-size: cover;
   }
