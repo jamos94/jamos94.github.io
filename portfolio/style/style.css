@@ -45,13 +45,12 @@ img {
 
 #header {
   /* hint: use ../images/Banner.jpg */
-  width: 600px;
-  height: 400px;
+  /* width: 600px;
+  height: 400px; */
   background-image: url('../images/Banner.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
   }
   .center {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
