@@ -37,11 +37,11 @@ body {
 }
 
 /* center image */
-img {
+/* img {
   display: block;
   margin: 0 auto;
   width: 400px;
-}
+} */
 
 .header {
   /* background: url(/images/banner.jpg) no-repeat; */
