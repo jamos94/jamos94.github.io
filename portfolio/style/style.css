@@ -1,0 +1,66 @@
+/* CSS: Cascade Style Sheet */
+
+/* all html content */
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Montagu Slab', serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: #000000dc;
+  color: #ffffffdc;
+}
+
+/* heading one  */
+h1 {
+  font-size: 40px;
+  text-align: center;
+
+  /* postion & style of main page */
+  margin: 0;
+  padding: 20px 0;
+  color: #f1f1f1;
+  text-shadow: 2px 2px 1px #1facbe6e; /*dropped 1st and 2nd shadows to 2px for readability*/
+}
+
+/* paragraph and list */
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+/* holds true to all contents inside the body */
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #1facbe6e;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+/* center image */
+img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+/* 
+#header {
+  width: 600px;
+  height: 400px; 
+  background-image: url('../images/Banner.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  } */
+
+  .center {
+    margin: 0 auto;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+    font-size: 25;
+  }
