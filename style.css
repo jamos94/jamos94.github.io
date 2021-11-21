@@ -17,7 +17,7 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #f1f1f1;
-  text-shadow: 2px 2px 1px #1facbe6e; /*dropped 1st and 2nd shadows to 2px for legibility*/
+  text-shadow: 2px 2px 1px black; /*dropped 1st and 2nd shadows to 2px for legibility*/
 }
 
 /* paragraph and list */
@@ -29,7 +29,7 @@ p, li {
 }
 /* holds true to all contents inside the body */
 body {
-  width: 80%;
+  width: 78%;
   margin: 0 auto;
   background-color: #1facbe6e;
   padding: 0 10px 10px 10px; 
@@ -70,7 +70,7 @@ nav {
 }
 
 aside {
-  background-color: aquamarine;
+  background-color: black;
   width: 25%;
   padding: 10px;
   float: left;
@@ -78,12 +78,12 @@ aside {
 
 main {
   margin-left: 27%;
-  background-color: antiquewhite;
+  background-color: rgba(106, 8, 136, 0.637);
   padding: 10px;
 }
 
 footer {
-  background-color: aquamarine;
+  background-color: rgba(106, 8, 136, 0.637);
   height: 30px;
   width: 100%;
   clear: both;
