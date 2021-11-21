@@ -47,7 +47,8 @@ img {
 header {
   width: 100%;
   background-image: url(../jamos94.github.io/images/Banner.jpg);
-  height: 400px;
+  background-repeat: no-repeat;
+  height: 380px;
   position: relative;
 }
 
