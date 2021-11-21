@@ -80,6 +80,7 @@ main {
   margin-left: 27%;
   background-color: rgb(106, 8, 136);
   padding: 10px;
+  opacity: .5;
 }
 
 footer {
