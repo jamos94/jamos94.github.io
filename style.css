@@ -49,7 +49,7 @@ header {
   background-image: url(../jamos94.github.io/images/Banner.jpg);
   background-repeat: no-repeat;
   height: 380px;
-  position: relative;
+  position: center; /*changed from relative*/
 }
 
 .center {
