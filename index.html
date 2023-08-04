@@ -1,60 +1,247 @@
 <!DOCTYPE html>
-<html>  <!--aka "root element"-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png"/>
+  <!-- TODO: change favicon -->
+  <link rel="icon" href="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <title>Jessica A | Web Developer</title>
+</head>
+<body>
+  <!-- NAV BAR -->
+  <nav>
+    <h1>Jessica Amos</h1>
+    <ul>
+      <li><a href="#hero">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <!-- TODO: research burger menus (mobile adjustments) -->
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <img 
+      src="headshot.png" 
+      alt="Jessica Amos Headshot" 
+      loading="lazy" 
+      class="hero-img">
+    <div class="bio animate__animated animate__shakeX">
+      <p class="bio-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
+        dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
+        inventore tempore minus nemo, iste ullam illo laboriosam maiores
+        repudiandae quos!
+      </p>
+    </div>
+  </section>
+  <!-- More about me -->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+      nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+      autem deleniti cupiditate molestias quis unde quae totam porro dicta
+      iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+      nostrum dolor minus, libero delectus praesentium perferendis
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+      consequuntur labore? Ea totam voluptas amet!
+    </p>
+  </section>
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img 
+          src="assets/icons/html.png" 
+          alt="html logo" 
+          loading="lazy" 
+          class="icon icon-card"/>
+        <img 
+          src="assets/icons/css.png" 
+          alt="css logo" 
+          loading="lazy" 
+          class="icon icon-card"/>
+        <img 
+          src="assets/icons/javascript.png" 
+          alt="javascript logo" 
+          loading="lazy" 
+          class="icon icon-card"/>
+      </div>
+      <div class="second-set animate__animated animate__pulse">
+        <img 
+          src="assets/icons/react.png" 
+          alt="react logo" 
+          loading="lazy" 
+          class="icon icon-card"/>
+        <img 
+          src="assets/icons/github-mark.png" 
+          alt="html logo" 
+          loading="lazy" 
+          class="icon icon-card"/>
+        <img 
+          src="assets/icons/sql.svg" 
+          alt="html logo" 
+          loading="lazy" 
+          class="icon icon-card"/>
+      </div>
+    </div>
+  </section>
+  <!-- Project section -->
+  <!-- TODO: add my personal projects -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">My Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img
+          src="assets/images/jlscreening.png"
+          alt="jlscreening llc website"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">JL Screening, LLC</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="https://www.jlscreening.com" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="assets/images/netflixClone.png"
+          alt="netflic-clone"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Netflix Clone</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="assets/images/greenyEarth.png"
+          alt="greeny-earth"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Greeny Earth</h3>
+        <p class="project-details">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="https://codepen.io/JessAmoz/pen/xxQQEee" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+  <!-- contact section -->
+  <section class="contact" id="contact">
+    <h2>Let's Talk Business</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <!-- TODO: research using formspree.io for action="" -->
+        <form action="get" method="post">
+          <div class="form-control">
+            <label for="name">Name:</label>
+            <input 
+              type="text" 
+              name="sender-name" 
+              placeholder="Enter your name"
+              id="name"
+              class="input-field"
+              required
+              />
+          </div>
+          <div class="form-control">
+            <label for="email">Email:</label>
+            <input 
+              type="email" 
+              name="email" 
+              id="email"
+              placeholder="Enter your email"
+              class="input-field"
+              required
+              />
+          </div>
+          <div class="form-control">
+            <label for="message">Message:</label>
+            <textarea 
+              name="message" 
+              id="message" 
+              cols="60" rows="10"
+              class="input-field"
+              required
+              ></textarea>
+          </div>
+          <input 
+            type="submit" 
+            value="Submit" 
+            id="submit-btn"
+            class="submit-btn"
+            />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- social accounts - fixed right -->
+  <div class="socials">
+    <a href="https://www.facebook.com/jessica.amos.9421/" target="_blank">
+      <img 
+        src="/assets/icons/icons8-facebook.svg" 
+        alt="facebook"
+        loading="lazy"
+        class="social-icon"
+    /></a>
+    <a href="https://www.linkedin.com/in/amosdeveloper/" target="_blank">
+      <img 
+        src="/assets/icons/icons8-linkedin.svg" 
+        alt="linkedin"
+        loading="lazy"
+        class="social-icon"
+    /></a>
+    <a href="https://github.com/jamos94" target="_blank">
+      <img 
+      src="/assets/icons/icons8-github-2.svg" 
+      alt="github"
+      loading="lazy"
+      class="social-icon"
+    /></a>
+  </div>
+  <!-- scroll to top -->
 
-    <!-- container for items included in index.html but not showing in content -->
-    <head>
-        <!-- charset specifies the character encoding for the HTML document (HTML5 encourages UTF-8) -->
-        <meta charset="UTF-8"> 
-        <link rel="stylesheet" href="style.css">
-        <!-- converts to display on all devices -->
-        <meta name="viewport" content="width=device-width">
-        <!-- font Montagu Slab -->
-        <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&display=swap" rel="stylesheet"> 
-        <title>Jess' Portfolio</title>
-    </head>
-
-    <!-- welcome banner -->
-    <!-- <div id ="header"></div> -->
-    
-    <!-- Navivagation bar -->
-    <nav>
-        <ul>
-            <a href = "index.html">Home     | </a>
-            <a href = "index.html">Resume      | </a>
-            <a href = "index.html">Projects      | </a>
-            <a href = "courses.html">Courses  </a>
-        </ul>
-    </nav>
-
-    <!-- contains all content shown on the page -->
-    <body>
-        <!-- welcome banner
-        <div id ="header"></div> -->
-        <!-- Level one heading opens up about me -->
-        <h1>Welcome to my Portfolio</h1>
-       
-        <p>I can’t say no to a good challenge. I’m a firm believer that if life is easy, you’re not learning much. I heard a quote recently that states “Progress is never linear.” There is not straight line to success. We often get knocked down or take a side road. It’s easy to overlook our own strengths. Yet, when we get back up, we are stronger and wiser than when we were. I can relate this to my personal life but also my professional. I encounter problems every day. Some seem more complex than my understanding. However, I have come to realize that most seemingly complex problems and simple solutions.</p>
-        
-        <table class ="center">
-            <td>    
-                <ul>
-                    <li>Problem Solver</li>
-                    <li>Resorceful</li>
-                    <li>Driven</li>
-                    <li>Adaptable</li>
-                </ul>
-            </td>
-            <td> 
-                <figure>
-                    <img src="images/headshot.jpg" alt ="Jessica's Headshot">
-                    <figcaption>Check out my <a href = "https://www.linkedin.com/in/amosdeveloper/">resume</a> on LinkedIn</figcaption>
-                </figure>
-                </td>
-
-        </table>        
-        <!-- Javascript (: -->
-        <!-- <button>Change user</button> -->
-        <script src="scripts/main.js"></script>
-
-    </body>
+  <!-- footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p class="copy">Built with &#x2661; by 
+      <a href="https://www.linkedin.com/in/amosdeveloper/">Jessica Amos
+      </a>
+    </p>
+  </footer>
+  <i class="scroll-up" id="scroll-up">
+    <img 
+      src="assets/icons/up-arrow.png" 
+      alt="scroll-up"
+      class="up-arrow"
+    /></i>
+  <!-- website scripts -->
+  <script src="assets/js/scripts.js"></script>
+  <!-- icon scripts -->
+</body>
 </html>
